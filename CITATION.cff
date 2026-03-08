@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+title: "Methodology-as-Infrastructure: From Framework to Runtime"
+message: "If you use this work, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Shatny
+    given-names: Michael
+    orcid: "https://orcid.org/0009-0006-2011-3258"
+repository-code: "https://github.com/semanticintent/methodology-as-infrastructure"
+abstract: >-
+  Methodology-as-Infrastructure proposes that analytical methodologies can be
+  compiled into deterministic execution layers — transforming descriptive
+  frameworks into executable runtime infrastructure. Using CAL (Cascade Analysis
+  Language) as the primary case study, this paper demonstrates how a 6-dimensional
+  cascade analysis methodology was encoded into a domain-specific language with
+  10 keywords, 3 formulas, and a PEG parser, producing a deterministic pipeline
+  that operates across domains without modification. 38 cross-industry case studies
+  validate the approach. The concept extends the "as-a-Service" and "as-Code"
+  paradigms into a new category: methodology that becomes the infrastructure
+  other systems build upon.
+keywords:
+  - methodology-as-infrastructure
+  - domain-specific-language
+  - cascade-analysis
+  - deterministic-execution
+  - cormorant-foraging
+  - semantic-intent
+  - 6d-methodology
+  - executable-methodology
+license: MIT
+version: 1.0.0
+date-released: "2026-03-08"
+references:
+  - type: software
+    title: "CAL Runtime: Cormorant Agentic Language Execution Engine"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18905193"
+    url: "https://github.com/semanticintent/cal-runtime"
+  - type: software
+    title: "CAL Documentation Site"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18905197"
+    url: "https://cal.cormorantforaging.dev"
+  - type: software
+    title: "Cormorant Foraging Framework: A Multi-Layered Architecture for Intelligence Systems"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18904952"
+    url: "https://github.com/semanticintent/cormorant-foraging-framework"
+  - type: software
+    title: "6D Foraging Methodology: Strategic Dimensional Discovery"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18209946"
+    url: "https://github.com/semanticintent/6d-foraging-methodology"
+  - type: software
+    title: "Semantic Intent SSOT"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.17114972"
+    url: "https://semanticintent.dev/papers/semantic-intent-ssot"
