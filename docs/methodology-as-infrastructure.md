@@ -11,7 +11,7 @@ March 2026
 
 Methodologies are traditionally descriptive — documents that explain *how* to think about a problem but leave execution to human interpretation. This paper proposes **Methodology-as-Infrastructure (MaI)**: the concept that analytical methodologies can be compiled into deterministic execution layers, transforming frameworks from documents people read into runtime infrastructure that systems build upon.
 
-Using CAL (Cascade Analysis Language) as the primary case study, we demonstrate how a 6-dimensional cascade analysis methodology was encoded into a domain-specific language with 10 keywords, 3 formulas, and a PEG parser — producing a deterministic pipeline that operates identically across domains without modification. 38 cross-industry case studies validate the approach across technology, sports, healthcare, finance, and domain-specific languages themselves.
+Using CAL (Cascade Analysis Language) as the primary case study, we demonstrate how a 6-dimensional cascade analysis methodology was encoded into a domain-specific language with 10 keywords, 3 formulas, and a PEG parser — producing a deterministic pipeline that operates identically across domains without modification. 42 cross-industry case studies validate the approach across technology, sports, healthcare, finance, and domain-specific languages themselves.
 
 The concept extends the established "-as-a-Service" and "-as-Code" paradigms into a new category: methodology that becomes the infrastructure other systems build upon.
 
@@ -130,9 +130,9 @@ This script encodes: scan for high-signal entities across five dimensions, map c
 
 The same script structure processes a corporate crisis, a sports franchise collapse, or a technology adoption pattern. The methodology is fixed. The data adapters change.
 
-### 3.4 Validation: 38 Case Studies
+### 3.4 Validation: 42 Case Studies
 
-38 published case studies [4] validate the approach across domains:
+42 published case studies [4] validate the approach across domains:
 
 - **Technology:** SaaS platform failures, open-source adoption cascades, AI tool commoditization
 - **Sports:** Franchise management failures (NHL, NFL, MLB)
@@ -200,7 +200,7 @@ MaI sits at the intersection of several established fields:
 
 Methodology-as-Infrastructure proposes that the boundary between "how to think" and "how to execute" is artificial. When a methodology is rigorous enough to be deterministic, it can be compiled into a runtime layer that other systems build upon.
 
-CAL demonstrates this with 10 keywords, 3 formulas, 38 case studies, and a working runtime. The methodology didn't describe cascade analysis — it *became* cascade analysis infrastructure.
+CAL demonstrates this with 10 keywords, 3 formulas, 42 case studies, and a working runtime. The methodology didn't describe cascade analysis — it *became* cascade analysis infrastructure.
 
 The concept is not limited to CAL or cascade analysis. Any methodology that satisfies the four properties (deterministic, closed-loop, domain-agnostic, composable) is a candidate for compilation into infrastructure. The tools exist: PEG parsers, MCP protocols, Zenodo DOIs, and AI systems capable of executing structured methodologies from tool definitions.
 

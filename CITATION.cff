@@ -14,7 +14,7 @@ abstract: >-
   Language) as the primary case study, this paper demonstrates how a 6-dimensional
   cascade analysis methodology was encoded into a domain-specific language with
   10 keywords, 3 formulas, and a PEG parser, producing a deterministic pipeline
-  that operates across domains without modification. 38 cross-industry case studies
+  that operates across domains without modification. 42 cross-industry case studies
   validate the approach. The concept extends the "as-a-Service" and "as-Code"
   paradigms into a new category: methodology that becomes the infrastructure
   other systems build upon.

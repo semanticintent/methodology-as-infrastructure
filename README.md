@@ -21,7 +21,7 @@ Methodologies are traditionally documents. This paper proposes they can be compi
 ## Evidence Base
 
 - **CAL Runtime** — DSL encoding the Cormorant Foraging methodology ([DOI](https://doi.org/10.5281/zenodo.18905193))
-- **38 case studies** — Cross-industry validation ([StratIQX](https://intelligence.stratiqx.com))
+- **42 case studies** — Cross-industry validation ([StratIQX](https://intelligence.stratiqx.com))
 - **5 DOIs** — Immutable academic record across the full stack
 
 ## Related Work
