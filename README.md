@@ -22,9 +22,14 @@ Methodologies are traditionally documents. This paper proposes they can be compi
 
 ## Evidence Base
 
-- **CAL Runtime** — DSL encoding the Cormorant Foraging methodology ([DOI](https://doi.org/10.5281/zenodo.18905193))
-- **42 case studies** — Cross-industry validation ([StratIQX](https://intelligence.stratiqx.com))
-- **8 DOIs** — Immutable academic record across the full stack
+- **CAL Runtime** — first MaI implementation, DSL encoding the Cormorant Foraging methodology ([DOI](https://doi.org/10.5281/zenodo.18905193))
+- **Phoenix Runtime** — seven-agent legacy modernization pipeline ([DOI](https://doi.org/10.5281/zenodo.19360782))
+- **EMBER** — shared artifact language across the MaI ecosystem ([DOI](https://doi.org/10.5281/zenodo.19751387))
+- **Strata Runtime** — five-agent database archaeology pipeline ([DOI](https://doi.org/10.5281/zenodo.19768151))
+- **42 case studies** — cross-industry CAL validation ([StratIQX](https://intelligence.stratiqx.com))
+- **11 DOIs** — immutable academic record across the full stack
+
+See **Appendix B** in the paper: each downstream runtime's `CITATION.cff` references this paper automatically — the citation chain is itself a demonstration of the composability property defined in Section 2.2.
 
 ## Related Work
 
