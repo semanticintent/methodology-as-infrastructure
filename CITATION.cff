@@ -19,7 +19,11 @@ abstract: >-
   that operates across domains without modification. 42 cross-industry case studies
   validate the approach. The concept extends the "as-a-Service" and "as-Code"
   paradigms into a new category: methodology that becomes the infrastructure
-  other systems build upon.
+  other systems build upon. v1.1 adds Appendix B: the citation chain across the
+  MaI ecosystem (CAL, Phoenix, EMBER, Strata — each CITATION.cff referencing
+  this paper automatically) is presented as a concrete demonstration of the
+  composability property defined in Section 2.2. The ecosystem does not merely
+  apply the MaI thesis — it demonstrates it.
 keywords:
   - methodology-as-infrastructure
   - domain-specific-language
@@ -29,9 +33,11 @@ keywords:
   - semantic-intent
   - 6d-methodology
   - executable-methodology
+  - composability
+  - citation-chain
 license: MIT
-version: 1.0.0
-date-released: "2026-03-08"
+version: 1.1.0
+date-released: "2026-04-25"
 references:
   - type: software
     title: "CAL Runtime: Cormorant Agentic Language Execution Engine"
@@ -68,3 +74,24 @@ references:
         given-names: Michael
     doi: "10.5281/zenodo.17114972"
     url: "https://semanticintent.dev/papers/semantic-intent-ssot"
+  - type: software
+    title: "Phoenix Runtime: Orchestration Layer for the Seven-Agent Legacy Modernization Pipeline"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.19360782"
+    url: "https://github.com/semanticintent/phoenix-runtime"
+  - type: software
+    title: "EMBER: Semantic Intent Language for Project Phoenix"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.19751387"
+    url: "https://github.com/semanticintent/ember"
+  - type: software
+    title: "Strata Runtime: Orchestration Layer for the Five-Agent Database Archaeology Pipeline"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.19768151"
+    url: "https://github.com/semanticintent/strata-runtime"
