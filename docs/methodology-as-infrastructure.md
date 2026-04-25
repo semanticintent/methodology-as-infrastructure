@@ -184,7 +184,7 @@ MaI addresses this through:
 - **CITATION.cff** — machine-readable attribution in every repository
 - **Case studies** — a body of evidence that demonstrates the methodology in action, not just the code
 
-The combination of open-source accessibility and academic citation infrastructure creates a model where the methodology can be freely used while attribution remains permanent.
+The combination of open-source accessibility and academic citation infrastructure creates a model where the methodology can be freely used while attribution remains permanent. Section 2.2 defines composability as output feeding the next stage without human translation. The citation chain is that property made visible: the paper's DOI propagates forward through every downstream runtime automatically, without anyone deciding to carry it. See Appendix B.
 
 ### 5.3 Relationship to Existing Paradigms
 
@@ -232,3 +232,28 @@ UC-038 ("The Self-Referential Cascade") applied CAL's own methodology to analyze
 - **Cascade multiplier: 6×-10×** (Severe range)
 
 The language exhibited the cascade pattern it was designed to detect — validating both the methodology and the infrastructure encoding simultaneously.
+
+---
+
+## Appendix B: The Ecosystem as Composability Proof
+
+Section 2.2 defines four properties that a methodology must satisfy to qualify as infrastructure. Three of them — deterministic, closed-loop, domain-agnostic — can be demonstrated by running CAL against data and inspecting the output. The fourth, **composability**, is harder to demonstrate in a single execution. Composability means the output of one stage feeds the next without human translation.
+
+The citation chain across the MaI ecosystem is that property made concrete.
+
+Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that references this paper by DOI. The chain as of April 2026:
+
+| Runtime | DOI | References this paper |
+|---|---|---|
+| CAL Runtime | 10.5281/zenodo.18905193 | Yes — via CITATION.cff |
+| Phoenix Runtime | 10.5281/zenodo.19360782 | Yes — via CITATION.cff |
+| EMBER | 10.5281/zenodo.19751387 | Yes — via CITATION.cff |
+| Strata Runtime | 10.5281/zenodo.19768151 | Yes — via CITATION.cff |
+
+No human decided to carry the citation forward at each step. The CITATION.cff standard made it automatic — a machine-readable contract that propagates with the artifact. When a new runtime is built in this ecosystem, the citation is inherited by convention, not by choice.
+
+This is composability. The paper's DOI is the output of stage zero. Every downstream runtime is a subsequent stage that consumes it. The chain grows without human translation at each joint.
+
+It also closes the loop on Section 5.2. The credit problem in open-source infrastructure is that attribution degrades as distance from the source increases. The citation chain inverts that: the more runtimes that instantiate the MaI pattern, the more times the paper is cited, and the more permanent the attribution becomes. Success amplifies attribution rather than eroding it.
+
+The ecosystem does not merely *apply* the MaI thesis. It *demonstrates* it.
