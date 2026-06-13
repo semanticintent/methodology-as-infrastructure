@@ -26,13 +26,14 @@ Methodologies are traditionally documents. This paper proposes they can be compi
 - **Phoenix Runtime** — seven-agent legacy modernization pipeline ([DOI](https://doi.org/10.5281/zenodo.19360782))
 - **EMBER** — shared artifact language across the MaI ecosystem ([DOI](https://doi.org/10.5281/zenodo.19751387))
 - **Strata Runtime** — five-agent database archaeology pipeline ([DOI](https://doi.org/10.5281/zenodo.19768151))
-- **42 case studies** — cross-industry CAL validation ([StratIQX](https://intelligence.stratiqx.com))
+- **239 case studies across 148+ sectors** — cross-industry CAL validation ([StratIQX](https://intelligence.stratiqx.com))
 - **11 DOIs** — immutable academic record across the full stack
 
 See **Appendix B** in the paper: each downstream runtime's `CITATION.cff` references this paper automatically — the citation chain is itself a demonstration of the composability property defined in Section 2.2.
 
 ## Related Work
 
+- [Intent-as-Infrastructure: When the Compiler Is Claude](https://doi.org/10.5281/zenodo.20681523) — the next paradigm in the progression
 - [Cormorant Foraging Framework](https://doi.org/10.5281/zenodo.18904952)
 - [6D Foraging Methodology](https://doi.org/10.5281/zenodo.18209946)
 - [CAL Documentation](https://cal.cormorantforaging.dev)

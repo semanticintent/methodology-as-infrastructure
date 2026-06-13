@@ -15,15 +15,16 @@ abstract: >-
   frameworks into executable runtime infrastructure. Using CAL (Cascade Analysis
   Language) as the primary case study, this paper demonstrates how a 6-dimensional
   cascade analysis methodology was encoded into a domain-specific language with
-  10 keywords, 3 formulas, and a PEG parser, producing a deterministic pipeline
-  that operates across domains without modification. 42 cross-industry case studies
-  validate the approach. The concept extends the "as-a-Service" and "as-Code"
-  paradigms into a new category: methodology that becomes the infrastructure
-  other systems build upon. v1.1 adds Appendix B: the citation chain across the
-  MaI ecosystem (CAL, Phoenix, EMBER, Strata — each CITATION.cff referencing
-  this paper automatically) is presented as a concrete demonstration of the
-  composability property defined in Section 2.2. The ecosystem does not merely
-  apply the MaI thesis — it demonstrates it.
+  12 keywords, 3 formulas, and a PEG parser, producing a six-stage deterministic
+  pipeline (Sense → Analyze → Measure → Decide → Act → Validate) that operates
+  across domains without modification. 239 cross-industry case studies across
+  148+ sectors validate the approach. The concept extends the "as-a-Service" and
+  "as-Code" paradigms into a new category: methodology that becomes the
+  infrastructure other systems build upon. v1.1 adds Appendix B: the citation
+  chain across the MaI ecosystem. v1.2 updates the evidence base (239 cases,
+  148+ sectors), adds WATCH and RECALL keywords (12 total), extends the pipeline
+  to six stages (Validate added), and adds the Intent-as-Infrastructure paper
+  (DOI: 10.5281/zenodo.20681523) to the Appendix B citation chain.
 keywords:
   - methodology-as-infrastructure
   - domain-specific-language
@@ -36,8 +37,8 @@ keywords:
   - composability
   - citation-chain
 license: MIT
-version: 1.1.0
-date-released: "2026-04-25"
+version: 1.2.0
+date-released: "2026-06-13"
 references:
   - type: software
     title: "CAL Runtime: Cormorant Agentic Language Execution Engine"
@@ -95,3 +96,10 @@ references:
         given-names: Michael
     doi: "10.5281/zenodo.19768151"
     url: "https://github.com/semanticintent/strata-runtime"
+  - type: software
+    title: "Intent-as-Infrastructure: When the Compiler Is Claude"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.20681523"
+    url: "https://github.com/semanticintent/intent-as-infrastructure"

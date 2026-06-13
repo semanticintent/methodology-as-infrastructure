@@ -3,7 +3,7 @@
 **Michael Shatny**
 ORCID: [0009-0006-2011-3258](https://orcid.org/0009-0006-2011-3258)
 
-March 2026
+March 2026 · Updated June 2026 (v1.2)
 
 ---
 
@@ -11,7 +11,7 @@ March 2026
 
 Methodologies are traditionally descriptive — documents that explain *how* to think about a problem but leave execution to human interpretation. This paper proposes **Methodology-as-Infrastructure (MaI)**: the concept that analytical methodologies can be compiled into deterministic execution layers, transforming frameworks from documents people read into runtime infrastructure that systems build upon.
 
-Using CAL (Cascade Analysis Language) as the primary case study, we demonstrate how a 6-dimensional cascade analysis methodology was encoded into a domain-specific language with 10 keywords, 3 formulas, and a PEG parser — producing a deterministic pipeline that operates identically across domains without modification. 42 cross-industry case studies validate the approach across technology, sports, healthcare, finance, and domain-specific languages themselves.
+Using CAL (Cascade Analysis Language) as the primary case study, we demonstrate how a 6-dimensional cascade analysis methodology was encoded into a domain-specific language with 12 keywords, 3 formulas, and a PEG parser — producing a six-stage deterministic pipeline (Sense → Analyze → Measure → Decide → Act → Validate) that operates identically across domains without modification. 239 cross-industry case studies across 148+ sectors validate the approach across technology, sports, healthcare, finance, and domain-specific languages themselves.
 
 The concept extends the established "-as-a-Service" and "-as-Code" paradigms into a new category: methodology that becomes the infrastructure other systems build upon.
 
@@ -82,13 +82,13 @@ The Cormorant Foraging Framework [1] provides a multi-layered architecture for i
 - **D5** Quality/Brand
 - **D6** Operational/Supply Chain
 
-The methodology specifies a five-stage pipeline: **Sense → Analyze → Measure → Decide → Act.**
+The methodology specifies a six-stage pipeline: **Sense → Analyze → Measure → Decide → Act → Validate.**
 
 ### 3.2 The Compilation
 
 CAL [3] encodes this methodology into a domain-specific language with:
 
-- **10 keywords** mapping directly to methodology layers: `FORAGE`, `DIVE`, `PERCH`, `LISTEN`, `WAKE`, `CHIRP`, `TRACE`, `SURFACE`, `DRIFT`, `FETCH`
+- **12 keywords** mapping directly to methodology layers: `FORAGE`, `DIVE`, `PERCH`, `LISTEN`, `WAKE`, `CHIRP`, `TRACE`, `SURFACE`, `DRIFT`, `FETCH`, `WATCH`, `RECALL`
 - **3 formulas** providing deterministic computation:
   - 3D Lens: `(Sound × Space × Time) / 10`
   - DRIFT: `Methodology - Performance`
@@ -110,6 +110,8 @@ The keywords are not arbitrary — each maps to a specific layer of the methodol
 | SURFACE | Measure | Extract results |
 | DRIFT | Measure | Quantify methodology-performance gap |
 | FETCH | Decide | Compute action score, determine response |
+| WATCH | Sense | Monitor signals over time with temporal duration |
+| RECALL | Validate | Check predictions against observed outcomes |
 
 ### 3.3 The Infrastructure Property
 
@@ -130,17 +132,18 @@ This script encodes: scan for high-signal entities across five dimensions, map c
 
 The same script structure processes a corporate crisis, a sports franchise collapse, or a technology adoption pattern. The methodology is fixed. The data adapters change.
 
-### 3.4 Validation: 42 Case Studies
+### 3.4 Validation: 239 Case Studies across 148+ Sectors
 
-42 published case studies [4] validate the approach across domains:
+239 published case studies [4] validate the approach across domains:
 
 - **Technology:** SaaS platform failures, open-source adoption cascades, AI tool commoditization
 - **Sports:** Franchise management failures (NHL, NFL, MLB)
 - **Healthcare:** Organizational cascade patterns
 - **Finance:** Market signal analysis
+- **Policy and governance:** Regulatory cascade analysis
 - **Self-referential:** CAL analyzing its own cascade pattern (UC-038)
 
-Each case study applies the identical pipeline — same keywords, same formulas, same executor — to different domain data. The consistency of results across domains demonstrates the infrastructure property: the methodology layer is domain-agnostic.
+Each case study applies the identical pipeline — same keywords, same formulas, same executor — to different domain data. The consistency of results across 148+ sectors demonstrates the infrastructure property: the methodology layer is domain-agnostic. At 239 cases the domain-agnostic claim is not a design assertion — it is an empirical observation.
 
 ---
 
@@ -200,7 +203,7 @@ MaI sits at the intersection of several established fields:
 
 Methodology-as-Infrastructure proposes that the boundary between "how to think" and "how to execute" is artificial. When a methodology is rigorous enough to be deterministic, it can be compiled into a runtime layer that other systems build upon.
 
-CAL demonstrates this with 10 keywords, 3 formulas, 42 case studies, and a working runtime. The methodology didn't describe cascade analysis — it *became* cascade analysis infrastructure.
+CAL demonstrates this with 12 keywords, 3 formulas, 239 case studies across 148+ sectors, and a working runtime. The methodology didn't describe cascade analysis — it *became* cascade analysis infrastructure.
 
 The concept is not limited to CAL or cascade analysis. Any methodology that satisfies the four properties (deterministic, closed-loop, domain-agnostic, composable) is a candidate for compilation into infrastructure. The tools exist: PEG parsers, MCP protocols, Zenodo DOIs, and AI systems capable of executing structured methodologies from tool definitions.
 
@@ -241,7 +244,7 @@ Section 2.2 defines four properties that a methodology must satisfy to qualify a
 
 The citation chain across the MaI ecosystem is that property made concrete.
 
-Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that references this paper by DOI. The chain as of April 2026:
+Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that references this paper by DOI. The chain as of June 2026:
 
 | Runtime | DOI | References this paper |
 |---|---|---|
@@ -249,6 +252,9 @@ Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that ref
 | Phoenix Runtime | 10.5281/zenodo.19360782 | Yes — via CITATION.cff |
 | EMBER | 10.5281/zenodo.19751387 | Yes — via CITATION.cff |
 | Strata Runtime | 10.5281/zenodo.19768151 | Yes — via CITATION.cff |
+| Intent-as-Infrastructure (IaI) | 10.5281/zenodo.20681523 | Yes — via CITATION.cff |
+
+The IaI paper extends the MaI paradigm into a domain where the compiler is an AI model and the human is a first-class architectural primitive. Its CITATION.cff explicitly references this paper, placing it as the next row in the paradigm progression.
 
 No human decided to carry the citation forward at each step. The CITATION.cff standard made it automatic — a machine-readable contract that propagates with the artifact. When a new runtime is built in this ecosystem, the citation is inherited by convention, not by choice.
 
