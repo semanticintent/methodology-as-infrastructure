@@ -253,6 +253,7 @@ Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that ref
 | EMBER | 10.5281/zenodo.19751387 | Yes — via CITATION.cff |
 | Strata Runtime | 10.5281/zenodo.19768151 | Yes — via CITATION.cff |
 | Intent-as-Infrastructure (IaI) | 10.5281/zenodo.20681523 | Yes — via CITATION.cff |
+| The Synthesis Gate | 10.5281/zenodo.20684283 | Yes — via CITATION.cff |
 
 The IaI paper extends the MaI paradigm into a domain where the compiler is an AI model and the human is a first-class architectural primitive. Its CITATION.cff explicitly references this paper, placing it as the next row in the paradigm progression.
 
