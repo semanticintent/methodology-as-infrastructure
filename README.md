@@ -1,6 +1,6 @@
 # Methodology-as-Infrastructure: From Framework to Runtime
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18946631.svg)](https://doi.org/10.5281/zenodo.18946631)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18946630.svg)](https://doi.org/10.5281/zenodo.18946630)
 
 **Author:** Michael Shatny ([ORCID](https://orcid.org/0009-0006-2011-3258))
 
@@ -37,7 +37,7 @@ See **Appendix B** in the paper: each downstream runtime's `CITATION.cff` refere
 - [Cormorant Foraging Framework](https://doi.org/10.5281/zenodo.18904952)
 - [6D Foraging Methodology](https://doi.org/10.5281/zenodo.18209946)
 - [CAL Documentation](https://cal.cormorantforaging.dev)
-- [Semantic Intent SSOT](https://doi.org/10.5281/zenodo.17114972)
+- [Semantic Intent SSOT](https://doi.org/10.5281/zenodo.17114971)
 
 ## License
 

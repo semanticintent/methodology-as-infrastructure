@@ -6,9 +6,9 @@ authors:
   - family-names: Shatny
     given-names: Michael
     orcid: "https://orcid.org/0009-0006-2011-3258"
-doi: "10.5281/zenodo.18946631"
+doi: "10.5281/zenodo.18946630"
 repository-code: "https://github.com/semanticintent/methodology-as-infrastructure"
-url: "https://doi.org/10.5281/zenodo.18946631"
+url: "https://doi.org/10.5281/zenodo.18946630"
 abstract: >-
   Methodology-as-Infrastructure proposes that analytical methodologies can be
   compiled into deterministic execution layers — transforming descriptive
@@ -73,7 +73,7 @@ references:
     authors:
       - family-names: Shatny
         given-names: Michael
-    doi: "10.5281/zenodo.17114972"
+    doi: "10.5281/zenodo.17114971"
     url: "https://semanticintent.dev/papers/semantic-intent-ssot"
   - type: software
     title: "Phoenix Runtime: Orchestration Layer for the Seven-Agent Legacy Modernization Pipeline"

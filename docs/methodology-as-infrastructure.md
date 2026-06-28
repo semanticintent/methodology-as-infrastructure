@@ -221,7 +221,7 @@ The question is no longer whether methodologies *can* become infrastructure. The
 
 [4] M. Shatny, "StratIQX Case Studies: 6D Cascade Analysis," 2025-2026. Available: [https://intelligence.stratiqx.com](https://intelligence.stratiqx.com)
 
-[5] M. Shatny, "Semantic Intent SSOT," 2025. DOI: [10.5281/zenodo.17114972](https://doi.org/10.5281/zenodo.17114972)
+[5] M. Shatny, "Semantic Intent SSOT," 2025. DOI: [10.5281/zenodo.17114971](https://doi.org/10.5281/zenodo.17114971)
 
 ---
 
