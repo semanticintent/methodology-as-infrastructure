@@ -22,7 +22,7 @@ Methodologies are traditionally documents. This paper proposes they can be compi
 
 ## Evidence Base
 
-- **CAL Runtime** — first MaI implementation, DSL encoding the Cormorant Foraging methodology ([DOI](https://doi.org/10.5281/zenodo.18905193))
+- **CAL Runtime** — first MaI implementation, DSL encoding the Cormorant Foraging methodology ([DOI](https://doi.org/10.5281/zenodo.18905192))
 - **Phoenix Runtime** — seven-agent legacy modernization pipeline ([DOI](https://doi.org/10.5281/zenodo.19360782))
 - **EMBER** — shared artifact language across the MaI ecosystem ([DOI](https://doi.org/10.5281/zenodo.19751387))
 - **Strata Runtime** — five-agent database archaeology pipeline ([DOI](https://doi.org/10.5281/zenodo.19768151))
@@ -33,7 +33,7 @@ See **Appendix B** in the paper: each downstream runtime's `CITATION.cff` refere
 
 ## Related Work
 
-- [Intent-as-Infrastructure: When the Compiler Is Claude](https://doi.org/10.5281/zenodo.20681523) — the next paradigm in the progression
+- [Intent-as-Infrastructure: When the Compiler Is Claude](https://doi.org/10.5281/zenodo.20681522) — the next paradigm in the progression
 - [Cormorant Foraging Framework](https://doi.org/10.5281/zenodo.18904952)
 - [6D Foraging Methodology](https://doi.org/10.5281/zenodo.18209946)
 - [CAL Documentation](https://cal.cormorantforaging.dev)

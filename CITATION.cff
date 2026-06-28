@@ -24,7 +24,7 @@ abstract: >-
   chain across the MaI ecosystem. v1.2 updates the evidence base (239 cases,
   148+ sectors), adds WATCH and RECALL keywords (12 total), extends the pipeline
   to six stages (Validate added), and adds the Intent-as-Infrastructure paper
-  (DOI: 10.5281/zenodo.20681523) to the Appendix B citation chain.
+  (DOI: 10.5281/zenodo.20681522) to the Appendix B citation chain.
 keywords:
   - methodology-as-infrastructure
   - domain-specific-language
@@ -45,7 +45,7 @@ references:
     authors:
       - family-names: Shatny
         given-names: Michael
-    doi: "10.5281/zenodo.18905193"
+    doi: "10.5281/zenodo.18905192"
     url: "https://github.com/semanticintent/cal-runtime"
   - type: software
     title: "CAL Documentation Site"
@@ -101,5 +101,5 @@ references:
     authors:
       - family-names: Shatny
         given-names: Michael
-    doi: "10.5281/zenodo.20681523"
+    doi: "10.5281/zenodo.20681522"
     url: "https://github.com/semanticintent/intent-as-infrastructure"

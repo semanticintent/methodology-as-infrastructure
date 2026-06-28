@@ -217,7 +217,7 @@ The question is no longer whether methodologies *can* become infrastructure. The
 
 [2] M. Shatny, "6D Foraging Methodology: Strategic Dimensional Discovery," 2025. DOI: [10.5281/zenodo.18209946](https://doi.org/10.5281/zenodo.18209946)
 
-[3] M. Shatny, "CAL Runtime: Cormorant Agentic Language Execution Engine," 2026. DOI: [10.5281/zenodo.18905193](https://doi.org/10.5281/zenodo.18905193)
+[3] M. Shatny, "CAL Runtime: Cormorant Agentic Language Execution Engine," 2026. DOI: [10.5281/zenodo.18905192](https://doi.org/10.5281/zenodo.18905192)
 
 [4] M. Shatny, "StratIQX Case Studies: 6D Cascade Analysis," 2025-2026. Available: [https://intelligence.stratiqx.com](https://intelligence.stratiqx.com)
 
@@ -248,12 +248,12 @@ Each runtime that instantiates the MaI pattern carries a `CITATION.cff` that ref
 
 | Runtime | DOI | References this paper |
 |---|---|---|
-| CAL Runtime | 10.5281/zenodo.18905193 | Yes — via CITATION.cff |
+| CAL Runtime | 10.5281/zenodo.18905192 | Yes — via CITATION.cff |
 | Phoenix Runtime | 10.5281/zenodo.19360782 | Yes — via CITATION.cff |
 | EMBER | 10.5281/zenodo.19751387 | Yes — via CITATION.cff |
 | Strata Runtime | 10.5281/zenodo.19768151 | Yes — via CITATION.cff |
-| Intent-as-Infrastructure (IaI) | 10.5281/zenodo.20681523 | Yes — via CITATION.cff |
-| The Synthesis Gate | 10.5281/zenodo.20684283 | Yes — via CITATION.cff |
+| Intent-as-Infrastructure (IaI) | 10.5281/zenodo.20681522 | Yes — via CITATION.cff |
+| The Synthesis Gate | 10.5281/zenodo.20684282 | Yes — via CITATION.cff |
 
 The IaI paper extends the MaI paradigm into a domain where the compiler is an AI model and the human is a first-class architectural primitive. Its CITATION.cff explicitly references this paper, placing it as the next row in the paradigm progression.
 
